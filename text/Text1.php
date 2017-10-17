@@ -6,16 +6,16 @@
  * Time: 10:40
  */
 
-echo 1;
-echo "xiaobawang shi shadiao";
-qqqqqqqqqq
-dgfdg；
-sdfjksdklfjdf
-哈用户无可如何去
-6
-5
-646echo
-
-
-1212
-3
+//echo 1;
+//echo "xiaobawang shi shadiao";
+//qqqqqqqqqq
+//dgfdg；
+//sdfjksdklfjdf
+//哈用户无可如何去
+//6
+//5
+//646echo
+//
+//
+//1212
+//3
