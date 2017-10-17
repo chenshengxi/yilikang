@@ -8,6 +8,7 @@
 
 echo 1;
 echo "xiaobawang shi shadiao";
+qqqqqqqqqq
 dgfdg；
 sdfjksdklfjdf
 哈用户无可如何去
