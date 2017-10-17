@@ -11,3 +11,6 @@ echo "xiaobawang shi shadiao";
 dgfdg；
 sdfjksdklfjdf
 哈用户无可如何去
+6
+5
+646echo
