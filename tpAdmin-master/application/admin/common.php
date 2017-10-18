@@ -102,6 +102,7 @@ function high_light($string, $needle = '', $class = 'c-red')
 function show_status($status, $id, $field = 'id', $controller = '')
 {
     $controller === '' && $controller = Request::instance()->controller();
+    $ret = "";
     switch ($status) {
         // 恢复
         case 0 :
