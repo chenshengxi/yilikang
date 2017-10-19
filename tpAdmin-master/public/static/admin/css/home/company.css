@@ -1,0 +1,735 @@
+/*集团介绍company，样式书写*/
+/*页面样式*/
+html {
+    /*因为padding的关系所以宽度注释掉*/
+    /*width: 100%;*/ 
+    height: 100%;
+    padding: 115px 0 100px 280px;
+    background: url("../images/company_bg.png");
+}
+.company_sub {
+    margin: 0 auto;
+    /*1257,宽度调整减少1057*/
+    width: 1057px;
+    height: 786px;
+    border-radius: 10px;
+    box-shadow: -10px 15px 40px #ccc;
+}
+/*头部tab切换*/
+.head_cpny {
+    width: 100%;
+    height: 66px;
+    background-color: #75c699;
+    border-radius: 10px 10px 0 0;
+}
+    /*span标签样式 公共样式*/
+.tits {
+    float: left;
+    margin: 26px 10px 0 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    background-color: #e3f4eb;
+    font-size: 16px;
+    color: #094;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+    /*第一个span*/
+.first_tits {
+    margin:  20px 10px 0 24px;
+    height: 46px;
+    background-color: #fff;
+    color: #f90;
+}
+    /*第四、五个span*/
+.forth_tits, .fifth_tits {
+    width: 105px;
+}
+    /*第六个span*/
+.sixth_tits {
+    width: 180px;
+}
+    /*返回*/
+.return {
+    float: right;
+    margin: 20px 21px 9px 0;
+    padding-left: 10px;
+    width: 123px;
+    height: 29px; 
+    border: 3px solid #fff;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #fff; 
+    word-spacing: 50px;
+    line-height: 29px; 
+    cursor: pointer;
+}
+/*内容区*/
+.con_cpny {
+    width: 100%;
+    height: 720px;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+}
+/*公共样式*/
+.page_con {
+    padding: 0 33px 0;
+    width: 991px;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+}
+/*第一页*/
+.page1_con {
+    padding-top: 40px;
+    height: 100%;
+    background: url(../images/NEEQlogo.png) 186px 479px no-repeat, url(../images/map_China.png) 577px 458px no-repeat;
+}
+.page1_con h2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f39800;
+    text-align: center;
+    line-height: 40px;
+}
+.page1_con h2::before {
+    position: absolute;
+    top: 0;
+    left: 296px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.page1_con h2::after {
+    position: absolute;
+    top: 0;
+    right: 296px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+.page1_con span {
+    position: relative;
+    display: block;
+    margin: 0 auto 56px;
+    width: 400px;
+    height: 10px;
+    font-size: 14px;
+    color: #f39800;
+    text-align: center;
+    line-height: 30px;
+}
+.page1_con span::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.page1_con span::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+.con_cpny .page1_con p {
+    overflow: hidden;
+    margin-bottom: 34px;
+    width: 100%;
+    font-size: 12px;
+    text-indent: 2em;
+}
+/*第二页*/
+.page2_con {
+    display: none;
+    padding-top: 40px;
+    background: url("../images/page2_con_bg.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+    /*文字部分*/
+.page2_con h2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f39800;
+    text-align: center;
+    line-height: 40px;
+}
+.page2_con h2::before {
+    position: absolute;
+    top: 0;
+    left: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.page2_con h2::after {
+    position: absolute;
+    top: 0;
+    right: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+.page2_con h3 {
+    position: relative;
+    margin: 0 auto 56px;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f39800;
+    text-align: center;
+    line-height: 30px;
+}
+.page2_con h3::before {
+    position: absolute;
+    bottom: 0;
+    left: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.page2_con h3::after {
+    position: absolute;
+    bottom: 0;
+    right: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+.page2_con p {
+    overflow: hidden;
+    margin-bottom: 34px;
+    width: 100%;
+    font-size: 12px;
+    text-indent: 2em;
+}
+    /*图片部分*/
+.pic_page2 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pic1_page2 {
+    float: left;
+    margin: 125px 0 0 171px;
+    width: 65px;
+    height: 65px;
+}
+.pic2_page2 {
+    float: left;
+    margin: 139px 0 0 71px;
+    width: 100px;
+    height: 100px;
+} 
+.pic3_page2 {
+    float: left;
+    margin: 70px 0 0 78px;
+    width: 129px;
+    height: 129px;
+}
+.pic4_page2 {
+    float: left;
+    margin: 80px 0 0 101px;
+    width: 185px;
+    height: 185px;
+}
+.pic_page2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pic_page2 span {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.pic_page2 em {
+    position: absolute;
+    bottom: 100%;
+    left: 40%;
+    display: block;
+    width: 26%;
+    height: 26%;
+    background: url("../images/glass.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+    /*蒙版*/
+.masking {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.masking .icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.masking img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+/*第三页*/
+.con_cpny .page3_con {
+    display: none;
+    padding-top: 40px;
+}
+    /*标题部分*/
+.title_page3 h2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f39800;
+    text-align: center;
+    line-height: 40px;
+}
+.title_page3 h2::before {
+    position: absolute;
+    top: 0;
+    left: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.title_page3 h2::after {
+    position: absolute;
+    top: 0;
+    right: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-top: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+.title_page3 h3 {
+    position: relative;
+    margin: 0 auto 56px;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f39800;
+    text-align: center;
+    line-height: 30px;
+}
+.title_page3 h3::before {
+    position: absolute;
+    bottom: 0;
+    left: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-left: 1px solid #ffcf9f;
+}
+.title_page3 h3::after {
+    position: absolute;
+    bottom: 0;
+    right: 272px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    border-bottom: 1px solid #ffcf9f;
+    border-right: 1px solid #ffcf9f;
+}
+    /*图片*/
+.pic_page3 {
+    float: left;
+    margin-top: 75px;
+    width: 471px;
+}
+.pic_page3 div {
+    float: left;
+    width: 235px;
+    height: 154px;
+}
+.first_pic_page3 img, .forth_pic_page3 img {
+    float:left;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+}
+.first_pic_page3 img {
+    margin: 0 10px 10px 0;
+}
+.forth_pic_page3 img {
+    margin: 8px 0px 0 10px;
+}
+.second_pic_page3 img, 
+.third_pic_page3 img {
+    float: left;
+    width: 45%;
+    height: 45%;
+    border-radius: 10px;
+}
+.second_pic_page3 img {
+    margin: 0 0 10px 10px;
+}
+.third_pic_page3 img {
+    margin: 8px 10px 0 0;
+}
+    /*段落内容部分*/
+.page3_con .para_page3 {
+    float: right;
+    margin-top: 108px;
+    width: 475px;
+}
+.page3_con .para_page3 p {
+    overflow: hidden;
+    margin-bottom: 36px;
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+}
+/*第四页*/
+.page4_con {
+    display: none;
+    padding: 13px;
+    height: 694px;
+}
+.page4_con video {
+    width: 100%;
+    height: 100%;
+}
+/*第五页*/
+.page5_con {
+    position: relative;
+    display: none;
+    width: 968px;
+    padding: 50px 45px 0 44px;
+}
+.page5_con .certificate {
+    overflow: hidden;
+    width: 100%;
+}
+.certificate ul {
+    /*padding-top: 50px;*/
+    width: 2420px;
+}
+.certif_item {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    padding-top: 50px;
+    width: 484px;
+    height: 300px;
+    border-top: 1px solid #81cda2;
+    background: url("../images/certificate_bg.png") 100px 220px no-repeat;
+    background-size: 280px 70px;
+}
+.certif_item::before {
+    position: absolute;
+    top: -11px;
+    left: 241px;
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #81cda2;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.certif_item::after {
+    position: absolute;
+    top: -5px;
+    left: 247px;
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #81cda2;
+    border-radius: 50%;
+}
+.certif_item img {
+    display: block;
+    height: 186px;
+    margin: 0 auto;
+}
+.certif_item p {
+    margin: 40px auto 0;
+    width: 181px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.prize {
+    margin: 20px 0;
+    padding: 70px 0 75px;
+    width: 100%;
+    background-color: #f1f7f3;
+}
+.prize_item {
+    float: left;
+    width: 322px;  
+}
+.prize_item img {
+    float: left;
+    width: 61px;
+    height: 56px;
+    margin-right: 20px;
+}
+.prize_item h3 {
+    float: left;
+    color: #f2b361;
+}
+.prize_item p {
+    float: left;
+    width: 241px;
+}
+.left_page5_con, .right_page5_con {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+.left_page5_con {
+    top: 230px;
+    left: 25px;
+    background: url("../images/left.png");
+    background-size: 100% 100%;
+}
+.right_page5_con {
+    top: 230px;
+    right: 25px;
+    background: url("../images/right.png");
+    background-size: 100% 100%;
+}
+/*第六页*/
+.page6_con {
+    display: none;
+    padding-top: 70px;
+}
+.banner_page6 {
+    position: relative;
+    width: 100%;
+    height: 211px;
+}
+.pic_banner {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cip {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    display: block;
+    width: 177px;
+    height: 177px;
+}
+.query {
+    float: left;
+    margin: 215px 0 0 45px;
+    padding-top: 77px;
+    width: 220px;
+    height: 20px;
+    background: url("../images/query.png") center 0 no-repeat;
+    cursor: pointer;
+}
+
+.query h3 {
+    width: 220px;
+    height: 16px;
+    font-size: 12px;
+    color: #094;
+    text-align: center;
+    line-height: 16px;
+}
+.text_page6 {
+    float: right;
+    margin-top: 56px;
+    width: 680px;
+}
+.text_page6 p {
+    overflow: hidden;
+    margin-bottom: 36px;
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+    text-indent: 2em;
+}
+/*成绩查询报名页*/
+.query_page {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+    /*头部*/
+.query_page_head {
+    margin-bottom: 60px;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px 10px 0 0 ;
+    background-color: #f7ba54;
+}
+            /*左侧标题*/
+.query_page_head h2 {
+    float: left;
+    margin: 20px 0 0 40px;
+    width: 188px;
+    font-size: 22px;
+    color: #fff;
+}
+            /*右侧退出按钮*/
+.back_query {
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-color: #e39f2d;
+    border-radius: 0 10px 0 0 ;
+    cursor: pointer;
+}
+.back_query em {
+    float: left;
+    margin: 17px 0 0 20px;
+    color: #fff;
+    font-size: 32px;
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    -ms-transition: -ms-transform 0.5s;
+
+}
+.back_query em:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+    /*内容区*/
+.query_page_main {
+    width: 100%;
+    height: 620px;
+}
+.query_page_main h2 {
+    margin: 0 auto 40px;
+    width: 223px;
+    font-size: 18px;
+    color: #094;
+}
+.con_query_page {
+    float: left;
+    overflow: hidden;
+    width: 840px;
+    height: 410px;
+}
+.conbox {
+    float: left;
+    margin: 20px 0 0 88px;
+    width: 750px;
+}
+.conbox_item {
+   margin-bottom: 10px;
+   width: 748px; 
+   height: 86px;
+   border: 1px solid #dadada;
+}
+.conbox_item h3 {
+    float: left;
+    margin-right: 25px;
+    width: 84px;
+    height: 86px;
+    border-right: 1px solid #dadada;
+    background-color: #f0f9f4;
+    font-size: 14px;
+    color: #5db383;
+    text-align: center;
+    line-height: 88px;
+}
+.conbox_item span {
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 45px;
+}
+        /*滚动条样式*/
+.scrollbox {
+    display: none;
+    position: relative;
+    float: right;
+    margin-right: 80px;
+    width: 3px;
+    height: 410px;
+    background-color: #f3b246;
+    cursor: pointer;
+}
+.scrollbar {
+    position: absolute;
+    top: 10px;
+    left: -3px;
+    padding-top: 10px;
+    width: 10px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f2a729;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+}

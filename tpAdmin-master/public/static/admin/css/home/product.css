@@ -1,0 +1,129 @@
+/*产品展示页样式书写*/
+@font-face {
+    font-family: 'FZQKBYSJW';
+    src: url('../font/FZQKBYSJW.ttf');
+    /*src: url('../font/FZQKBYSJW.eot') format('FZQKBYSJW.eot');*/
+}
+/*页面*/
+html {
+    height: 100%;
+    padding: 115px 0 100px 280px;
+    background: url("../images/company_bg.png");
+}
+/*一、头部*/
+.product {
+    margin: 0 auto;
+    /*1257,宽度调整减少1057*/
+    width: 1057px;
+}
+.heade_product {
+    width: 1057px;
+    height: 122px;
+}
+.head_product span {
+    position: relative;
+    float: left;
+    margin-right: 60px;
+    width: 202px;
+    height: 94px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-size: 100% 100%;
+    font: 30px FZQKBYSJW;
+    color: #475a1b;
+    text-align: center;
+    line-height: 94px;
+    cursor: pointer;
+}
+.head_product span::before {
+    display: none;
+    position: absolute;
+    top: 94px;
+    left: 88px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 11px solid #e7f6b0;
+}
+.product .head_product span:nth-child(2)::before {
+    border-top: 11px solid #e8f4d8;
+}
+.product .head_product span:nth-child(3)::before {
+    border-top: 11px solid #eff6e6;
+}
+.product .head_product span:nth-child(4)::before {
+    border-top: 11px solid #ebf3e4;
+}
+.active_product {
+    /*span标签鼠标移入特效*/
+}
+.head_product .active_product::before {
+    display: block;
+}
+.head_product span:nth-child(1) {
+    background: url("../images/pic-product_tabbg_01.png");
+}
+.head_product span:nth-child(2) {
+    background: url("../images/pic-product_tabbg_02.png");
+}
+.head_product span:nth-child(3) {
+    background: url("../images/pic-product_tabbg_03.png");
+}
+.head_product span:nth-child(4) {
+    background: url("../images/pic-product_tabbg_04.png");
+}
+/*二、内容*/
+.main_product {
+    margin-top: 29px;
+    width: 1057px;
+}
+.item {
+    margin-bottom: 27px;
+    width: 1057px;
+    height: 309px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.item img {
+    float: left;
+    margin: 29px 0 31px 33px;
+    width: 503px;
+    height: 247px;
+    border-radius: 10px;
+}
+.item h2 {
+    float: right;
+    margin: 80px 214px 37px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+
+}
+.item p {
+    float: right;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0 70px 50px 0;
+    width: 390px;
+    font-size: 12px;
+    color: #858585;
+    text-align: center;
+    text-indent: 2em;
+}
+.lookover {
+    float: right;
+    margin-right: 196px;
+    width: 115px;
+    height: 36px;
+    border: 1px solid #f8c387;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #f39800;
+    text-align: center;
+    line-height: 36px;
+}

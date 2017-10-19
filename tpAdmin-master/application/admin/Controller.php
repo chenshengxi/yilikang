@@ -248,6 +248,7 @@ class Controller
         if (!isset($data[$key])) {
             throw new HttpException(404, '缺少必要参数');
         }
+
         $ids = is_array($data[$key]) ? $data[$key] : explode(",", $data[$key]);
         foreach ($ids as $id) {
             switch ($method) {
@@ -369,7 +370,6 @@ class Controller
 
         if ($paginate) {
             // 分页查询
-
             // 每页数据数量
             $listRows = $this->request->param('numPerPage') ?: Config::get("paginate.list_rows");
 

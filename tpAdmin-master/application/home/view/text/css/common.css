@@ -1,0 +1,123 @@
+/* 引入字体  方正清课本*/
+@font-face
+{
+font-family: FZQKBYSJW;
+src: url('../font/FZQKBYSJW.ttf'),
+}
+/* 华文细黑 */
+@font-face {
+	font-family:HWXH;
+	src: url('../font/hwxh.ttf');
+}
+html.fp-enabled {
+	/*padding-left: 280px;*/
+	background: url("../images/bg-common.png");
+}
+.menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 326px;
+	height: 100%;
+	background-size: 100%;
+	background: url("../images/index-bac-nav.png") 0 0  no-repeat;
+	z-index: 70;
+}
+	
+/* 头部logo */
+.headPic {
+	width: 119px;
+	height: 96px;
+	margin: 6.1%  14.6% 15%;
+}
+.headPic img {
+	display: block;
+	width: 119px;
+	height: 96px;
+}
+
+/* 语言 */
+.langue {
+	margin: 0 0 20% 17.8%;
+	width: 79px;
+	height: 17px;
+}
+.langue .ch {
+	float: left;
+	width: 32px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 14px;
+	text-align: center;
+	padding-right: 13px;
+	color: #094;
+	border-right: 1px solid #cccccc;
+}
+.langue .en {
+	float: left;
+	width: 18px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 14px;
+}
+
+/*导航区域*/
+.nav {
+	width: 145px;
+	height: 49%;
+	margin: 0 0 22px 30px;
+}
+.nav li {
+	display: block;
+	width: 136px;
+	height: 35px;
+	padding-left: 9px;
+	margin-bottom: 10px;
+	border-radius: 9px;
+}
+.nav  em  {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 8px;
+	margin: 2px 0;
+	border-radius: 16px;
+	background: #ccc;
+}
+.nav em img {
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.nav a {
+	float: left;
+	height: 35px;
+	padding: 0 22px 0 16px;
+	line-height: 35px;
+}
+
+/*导航选中样式*/
+.nav .active {
+	background: #094;
+}
+.nav .active a {
+	color: #FFF;
+}
+.nav .active em {
+	background: none;
+}
+
+/*底部页脚*/
+.footer {
+	width: 152px;
+	height: 40px;
+	margin-left: 40px;
+}
+.footer p {
+	overflow: hidden;
+	width: 100%;
+	font-size: 12px;
+	color: #999;
+}

@@ -1,0 +1,77 @@
+/*产品展示详情页样式书写*/
+@font-face {
+    font-family: FZQKBYSJW;
+    src: url('../font/FZQKBYSJW.ttf');
+}
+/*页面*/
+html {
+    height: 100%;
+    padding: 115px 0 100px 280px;
+    background: url("../images/company_bg.png");
+}
+.details {
+    margin: 0 auto;
+    /*1257,宽度调整减少1057*/
+    width: 1057px;
+    /*height: 786px;*/
+    border-radius: 10px;
+    box-shadow: -10px 15px 40px #ccc;
+    background-color: #fff;
+}
+.head_details {
+    width: 1057px;
+    height: 77px;
+    background: url("../images/details_bg.png") 0 0 no-repeat;
+}
+.head_details h2 {
+    float: left;
+    margin: 31px 0 0 47px;
+    font-family: FZQKBYSJW;
+    font-size: 26px;
+    color: #1b5a53;
+}
+.head_details a {
+    float: right;
+    margin: 23px 27px 0 0; 
+    width: 143px;
+    height: 33px;
+    border: 2px solid #094;
+    border-radius: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 50px;
+    color: #094;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
+.head_details .icon-left {
+    padding-right: 45px;
+    font-size: 16px;
+
+}
+.main_details {
+    padding: 60px;
+    width: 937px;
+}
+.main_details img {
+    display: block;
+    margin-bottom: 45px;
+    width: 937px;
+    height: 559px;
+    border-radius: 20px;
+}
+.main_details h3 {
+    margin: 0 auto 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #094;
+    text-align: center;
+}
+.main_details p {
+    margin: 0 auto 35px;
+    width: 836px;
+    color: #858585;
+    text-align: center;
+}
